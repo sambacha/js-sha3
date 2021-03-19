@@ -170,7 +170,12 @@ interface CshakeHash {
    * @param functionName The function name string.
    * @param customization The customization string.
    */
-  arrayBuffer(message: Message, outputBits: number, functionName: Message, customization: Message): ArrayBuffer;
+  arrayBuffer(
+    message: Message,
+    outputBits: number,
+    functionName: Message,
+    customization: Message,
+  ): ArrayBuffer;
 
   /**
    * Hash and return integer array.
@@ -180,7 +185,12 @@ interface CshakeHash {
    * @param functionName The function name string.
    * @param customization The customization string.
    */
-  digest(message: Message, outputBits: number, functionName: Message, customization: Message): number[];
+  digest(
+    message: Message,
+    outputBits: number,
+    functionName: Message,
+    customization: Message,
+  ): number[];
 
   /**
    * Hash and return integer array.
@@ -190,7 +200,12 @@ interface CshakeHash {
    * @param functionName The function name string.
    * @param customization The customization string.
    */
-  array(message: Message, outputBits: number, functionName: Message, customization: Message): number[];
+  array(
+    message: Message,
+    outputBits: number,
+    functionName: Message,
+    customization: Message,
+  ): number[];
 
   /**
    * Create a hash object.
@@ -217,7 +232,12 @@ interface CshakeHash {
    * @param functionName The function name string.
    * @param customization The customization string.
    */
-  update(message: Message, outputBits: number, functionName: Message, customization: Message): Hasher;
+  update(
+    message: Message,
+    outputBits: number,
+    functionName: Message,
+    customization: Message,
+  ): Hasher;
 }
 
 interface KmacHash {
@@ -249,7 +269,12 @@ interface KmacHash {
    * @param outputBits The length of output.
    * @param customization The customization string.
    */
-  arrayBuffer(key: Message, message: Message, outputBits: number, customization: Message): ArrayBuffer;
+  arrayBuffer(
+    key: Message,
+    message: Message,
+    outputBits: number,
+    customization: Message,
+  ): ArrayBuffer;
 
   /**
    * Hash and return integer array.

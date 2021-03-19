@@ -8,8 +8,7 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npx uglifyjs src/sha3.js -c -m --comments --output build/sha3.min.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -22,10 +21,7 @@
   },
   "homepage": "https://github.com/sambacha/js-sha3#readme",
   "devDependencies": {
-    "terser-webpack-plugin": "^5.1.1",
-    "uglify-js": "^3.13.1",
-    "webpack": "^5.27.0",
-    "webpack-cli": "^4.5.0"
+    "uglify-js": "^3.13.1"
   },
   "dependencies": {}
 }
