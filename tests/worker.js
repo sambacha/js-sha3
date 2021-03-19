@@ -1,5 +1,5 @@
 var imported = false;
-onmessage = function(e) {
+onmessage = function (e) {
   if (imported) {
     postMessage(sha3_512(e.data));
     if (typeof exports !== 'undefined') {
@@ -9,4 +9,4 @@ onmessage = function(e) {
     imported = true;
     importScripts(e.data);
   }
-}
+};
