@@ -1,10 +1,11 @@
 /**
- * [js-sha3]{@link https://github.com/emn178/js-sha3}
+ * [js-sha3]{@link https://github.com/sambacha/js-sha3}
  *
- * @version 0.8.0
+ * @version 0.9.1
  * @author Chen, Yi-Cyuan [emn178@gmail.com]
  * @copyright Chen, Yi-Cyuan 2015-2018
  * @license MIT
+ * @note updated fork 
  */
 /*jslint bitwise: true */
 (function () {
