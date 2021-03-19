@@ -1,0 +1,28 @@
+{
+  "name": "js-sha3",
+  "version": "0.9.0",
+  "description": "[![Build Status](https://travis-ci.org/emn178/js-sha3.svg?branch=master)](https://travis-ci.org/emn178/js-sha3) [![Coverage Status](https://coveralls.io/repos/emn178/js-sha3/badge.svg?branch=master)](https://coveralls.io/r/emn178/js-sha3?branch=master)   [![NPM](https://nodei.co/npm/js-sha3.png?stars&downloads)](https://nodei.co/npm/js-sha3/)",
+  "main": "src/index.js",
+  "typings": "index.d.ts",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sambacha/js-sha3.git"
+  },
+  "author": "sam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sambacha/js-sha3/issues"
+  },
+  "homepage": "https://github.com/sambacha/js-sha3#readme",
+  "devDependencies": {
+    "uglify-js": "^3.13.1"
+  },
+  "dependencies": {
+  }
+}
