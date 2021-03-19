@@ -136,13 +136,13 @@ Worker = function (file) {
   currentWorker = this;
 
   this.postMessage = function (data) {
-    onmessage({data: data});
+    onmessage({ data: data });
   };
-}
+};
 
 postMessage = function (data) {
-  currentWorker.onmessage({data: data});
-}
+  currentWorker.onmessage({ data: data });
+};
 
 importScripts = function () {};
 

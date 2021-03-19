@@ -5,3 +5,8 @@
 .travis.yml
 .npmignore
 bower.json
+.github/
+test/
+tests/
+.prettier*
+.eslint*

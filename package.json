@@ -1,45 +1,28 @@
 {
   "name": "js-sha3",
-  "version": "0.8.0",
-  "description": "A simple SHA-3 / Keccak / Shake hash function for JavaScript supports UTF-8 encoding.",
-  "main": "src/sha3.js",
-  "devDependencies": {
-    "expect.js": "~0.3.1",
-    "mocha": "~2.3.4",
-    "nyc": "^11.3.0",
-    "uglify-js": "^3.1.9",
-    "webworker-threads": "^0.7.13"
+  "version": "0.9.0",
+  "description": "[![Build Status](https://travis-ci.org/emn178/js-sha3.svg?branch=master)](https://travis-ci.org/emn178/js-sha3) [![Coverage Status](https://coveralls.io/repos/emn178/js-sha3/badge.svg?branch=master)](https://coveralls.io/r/emn178/js-sha3?branch=master)   [![NPM](https://nodei.co/npm/js-sha3.png?stars&downloads)](https://nodei.co/npm/js-sha3/)",
+  "main": "src/index.js",
+  "typings": "index.d.ts",
+  "directories": {
+    "test": "tests"
   },
   "scripts": {
-    "test": "nyc mocha tests/node-test.js",
-    "report": "nyc --reporter=html --reporter=text mocha tests/node-test.js",
-    "coveralls": "nyc report --reporter=text-lcov | coveralls",
-    "build": "uglifyjs src/sha3.js -c -m --comments --output build/sha3.min.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/emn178/js-sha3.git"
+    "url": "git+https://github.com/sambacha/js-sha3.git"
   },
-  "keywords": [
-    "sha3",
-    "keccak",
-    "shake",
-    "cshake",
-    "kmac",
-    "hash",
-    "encryption",
-    "cryptography",
-    "HMAC"
-  ],
+  "author": "sam",
   "license": "MIT",
-  "author": "Chen, Yi-Cyuan <emn178@gmail.com>",
-  "homepage": "https://github.com/emn178/js-sha3",
   "bugs": {
-    "url": "https://github.com/emn178/js-sha3/issues"
+    "url": "https://github.com/sambacha/js-sha3/issues"
   },
-  "nyc": {
-    "exclude": [
-      "tests"
-    ]
+  "homepage": "https://github.com/sambacha/js-sha3#readme",
+  "devDependencies": {
+    "uglify-js": "^3.13.1"
+  },
+  "dependencies": {
   }
 }
