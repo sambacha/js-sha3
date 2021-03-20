@@ -1,8 +1,25 @@
 # js-sha3
 
-[![Build Status](https://travis-ci.org/emn178/js-sha3.svg?branch=master)](https://travis-ci.org/emn178/js-sha3)
-[![Coverage Status](https://coveralls.io/repos/emn178/js-sha3/badge.svg?branch=master)](https://coveralls.io/r/emn178/js-sha3?branch=master)  
-[![NPM](https://nodei.co/npm/js-sha3.png?stars&downloads)](https://nodei.co/npm/js-sha3/)
+> uglify-js output
+
+```html
+<script='https://cdn.jsdelivr.net/gh/sambacha/js-sha3@master/build/sha3.min.js'></script>
+```
+[https://cdn.jsdelivr.net/gh/sambacha/js-sha3@master/build/sha3.min.js](https://cdn.jsdelivr.net/gh/sambacha/js-sha3@master/build/sha3.min.js)
+
+
+> webpack output w/ hash.
+
+```html
+<script='https://cdn.jsdelivr.net/gh/sambacha/js-sha3@v0.9.1/dist/sha3-3b4dbfc4c006325f0c87.js'></script>
+```
+[https://cdn.jsdelivr.net/gh/sambacha/js-sha3@v0.9.1/dist/sha3-3b4dbfc4c006325f0c87.js](https://cdn.jsdelivr.net/gh/sambacha/js-sha3@v0.9.1/dist/sha3-3b4dbfc4c006325f0c87.js)
+
+```json
+    "js-sha3": "^0.8.0"
+    "js-sha3": "git+https://github.com/sambacha/js-sha3#0.9.1"
+```
+
 
 A simple SHA-3 / Keccak / Shake hash function for JavaScript supports UTF-8 encoding.
 
